@@ -3,7 +3,7 @@ import data from './data'
 import { Route, Link } from 'react-router-dom'
 import FolderNav from './FolderNav'
 import NoteList from './NoteList.js'
-import Note from './Note'
+import Note from './Note/Note'
 import FilteredNotes from './FilteredNotes'
 
 console.log(data)

@@ -3,6 +3,7 @@ import { Route, Link } from 'react-router-dom'
 import data from './data'
 
 export default function NoteList() {
+    fetch(`http://localhost:9090/notes`)
     const [notes, setNotes] = useState(data.notes)
 
     return (
